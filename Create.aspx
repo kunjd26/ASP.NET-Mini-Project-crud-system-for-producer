@@ -41,8 +41,7 @@
                 <tr>
                     <th>Product Image: </th>
                     <td>
-                        <asp:FileUpload ID="FileUpload1" runat="server" CssClass="onlyInput" BorderStyle="None" /><br />
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="Empty field!" ControlToValidate="FileUpload1"></asp:RequiredFieldValidator>
+                        <asp:FileUpload ID="FileUpload1" runat="server" CssClass="onlyInput" BorderStyle="None" /><asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="Empty field!" ControlToValidate="FileUpload1"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
             </table>

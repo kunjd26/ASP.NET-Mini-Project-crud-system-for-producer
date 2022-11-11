@@ -47,3 +47,12 @@ th, td {
     margin-left: auto;
     margin-right: auto;
 }
+
+table {
+    border: 2px dashed #5491cd;
+    background-color: white;
+}
+
+th {
+    text-align: right;
+}

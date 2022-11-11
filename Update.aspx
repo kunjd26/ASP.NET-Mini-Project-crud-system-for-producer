@@ -7,11 +7,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Panel ID="Panel1" runat="server" CssClass="style1">
         <form id="form1" runat="server">
-            <asp:TextBox ID="TextBox1" runat="server" TextMode="Number" placeholder="Input product Id" CssClass="onlyInput"></asp:TextBox><br />
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="Empty field!" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
-            <br />
+            <asp:TextBox ID="TextBox1" runat="server" TextMode="Number" placeholder="Input product Id" CssClass="onlyInput"></asp:TextBox><br /><asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="Empty field!" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
             <br />
             <asp:Button ID="Button1" runat="server" Text="Search" OnClick="Button1_Click" CssClass="onlyInput" />
+            <br />
             <br />
             <asp:Panel ID="Panel2" runat="server">
                 <table>

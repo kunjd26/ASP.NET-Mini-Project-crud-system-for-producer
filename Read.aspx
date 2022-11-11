@@ -9,8 +9,7 @@
         <form id="form1" runat="server">
             <asp:Button ID="Button1" runat="server" Text="Read" OnClick="Button1_Click" CssClass="onlyInput" />
             <br />
-            <br />
-            <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="Black" AutoGenerateColumns="False" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellSpacing="2" Font-Size="Large" Font-Bold="True">
+            <asp:GridView ID="GridView1" runat="server" CellPadding="1" ForeColor="Black" AutoGenerateColumns="False" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="2px" CellSpacing="2" Font-Size="Large" Font-Bold="True">
                 <FooterStyle BackColor="#CCCCCC" />
                 <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
                 <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
@@ -34,7 +33,6 @@
                     </asp:TemplateField>
                 </Columns>
             </asp:GridView>
-            <br />
             <asp:Label ID="Label1" runat="server"></asp:Label>
         </form>
     </asp:Panel>
